@@ -1,0 +1,127 @@
+<!--
+ File: /~amchan/public_html/index.html
+ Amy Chan, Amy_Chan@student.uml.edu, amchan@cs.uml.edu
+ UMass Lowell Computer Science Student - 91.61 GUI Programming I
+ updated on July 22, 2020 at 1:50AM
+ Description: Updated webpage using Bootstrap.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Amy Chan</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-left" href="index.html">Amy Chan</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav navbar-right col-sm-3">
+                    <li><a href="#">Placeholder</a></li>
+                    <li><a href="#">Placeholder</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">GUI Programming I
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="homework3.html">Homework 3</a></li>
+                            <li><a href="homework4.html">Homework 4</a></li>
+                            <li><a href="homework5.html">Homework 5</a></li>
+                            <li><a href="homework6.html">Homework 6</a></li>
+                            <li><a href="homework7.html">Homework 7</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- JUMBOTRON -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Hi, I'm Amy</h1>
+                <hr>
+                <p>Computer Science and Electrical Engineering Student @ The University of Massachusetts Lowell</p>
+                <p>Currently taking the GUI I Programming course and learning HTML, CSS, and Bootstrap</p>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT / EXPERIENCE-->
+        <div class="container container-content">
+            <h2>Experience</h2>
+            <hr/>
+            <div class="card-deck mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-header">The Charles Stark Draper Laboratory</div>
+                        <h5 class="card-title">Product Lifecycle Management Automated Testing Fall Co-Op</h5>
+                        <ul class="card-description">
+                            <li>Wrote web API scripts for automated regression testing using Sahi and Javascript</li>
+                            <li>Tested, validated, and reported test results for user permissions against environment upgrades</li>
+                            <li>Reported bugs in a detailed manner utilizing JIRA and performed fix verification for the development of real-time software that supported system evaluation and production</li>
+                            <li>Collaborated with team members to write and revise new onboarding documentation for future members that decreased onboarding time by 80%</li>
+                            <li>Experience working in a team with Agile-based workflow and maintained coding / documentation standards</li>
+                            <li>Participated in company volunteer events for Cradles to Crayons</li>
+                        </ul>
+                        <div class="card-footer text-dark">
+                            <p class="card-text"><small class="text-muted">July 2019 - January 2020</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT / HOBBY-->
+        <div class="container container-content">
+            <h2>Interests / Personal Projects</h2>
+            <hr/>
+            <div class="card-deck mb-2">
+                <div class="card">
+                    <img src="keyboard.jpg" class="card-img-top" alt="Custom Mechanical Keyboard">
+                    <div class="card-body">
+                        <div class="card-header">Complete</div>
+                        <h5 class="card-title">Custom Mechanical Keyboard</h5>
+                        <ul class="card-description">
+                            <li>Tofu65 Aluminum Case</li>
+                            <li>KBD67 Rev2 65% PCB</li>
+                            <li>ZealiosV2 67g switches lubed with Krytox 205g0</li>
+                            <li>Brass plate</li>
+                            <li>EnjoyPBT 9009 keycaps</li>
+                        </ul>
+                        <div class="card-footer text-dark">
+                            <p class="card-text"><small class="text-muted">June 2020</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="voidwhale.png" class="card-img-top" alt="Custom Keycap Idea Sketch">
+                    <div class="card-body">
+                        <div class="card-header">In-Progress</div>
+                        <h5 class="card-title">Custom Keycap Design</h5>
+                        <ul class="card-description">
+                            <li>Design based on whales from the Dishonored franchise</li>
+                            <li>Described as "creatures of beauty and sadness"</li>
+                            <li>Chosen because it is an iconic creature from my favorite game</li>
+                            <li>Currently researching different materials and methods to put it on a keycap</li>
+                        </ul>
+                        <div class="card-footer text-dark">
+                            <p class="card-text"><small class="text-muted">July 2020 - Present</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
